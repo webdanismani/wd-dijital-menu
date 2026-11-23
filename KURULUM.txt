@@ -1,0 +1,31 @@
+WD Dijital Menü 1.0.0
+Web Danışmanı · webdanismani.com · Destek: oblifex.com
+Ücretsizdir, satılamaz (CC BY-NC-SA 4.0).
+
+GEREKSİNİMLER
+- PHP 8.0 veya üstü, PDO (SQLite veya MySQL), mbstring, cURL
+
+KURULUM
+1) Bu klasörün içindekileri hostinginize yükleyin (alt alan adı veya alt klasör).
+2) Tarayıcıda adresi açın; kurulum sihirbazı açılır.
+3) Veritabanı türünü seçin (SQLite önerilir), işletme adını ve yönetici hesabını girin.
+4) data/ klasörü yazılabilir olmalıdır (755 veya 775).
+   Nginx kullanıyorsanız: location ~ ^/(data|app|lang)/ { deny all; }
+
+TV'DE AÇMA
+- Ekranlar sayfasından ekranın adresini kopyalayıp TV'nin tarayıcısında tam ekran açın.
+- Her TV için ayrı ekran oluşturabilirsiniz (menü + kampanya, yalnız menü, yalnız kampanya).
+- Android TV kutusu: Fully Kiosk Browser gibi bir kiosk uygulamasıyla açılışta başlatın.
+- Raspberry Pi: chromium --kiosk "ekran adresi"
+
+MENÜ
+- Kurulumda örnek bir kafe menüsü gelir; panodaki düğmeyle silebilirsiniz.
+- Fiyat değişiklikleri ekranlara en geç 30 saniyede yansır.
+- Görsel yüklemek için uploads/ klasörü yazılabilir olmalıdır (755).
+
+GÜNCELLEME
+- data/ ve uploads/ dışındaki dosyaları yeni sürümle değiştirin; verileriniz korunur.
+
+DESTEK
+- Sorular ve hata bildirimleri: https://oblifex.com webmaster destek forumu
+- Kurulum ve özel geliştirme: https://webdanismani.com

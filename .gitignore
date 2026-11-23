@@ -1,0 +1,15 @@
+# Kuruluma özel veriler / Installation data
+/data/*
+!/data/.htaccess
+!/data/index.html
+/uploads/*
+!/uploads/.htaccess
+!/uploads/index.html
+
+.DS_Store
+Thumbs.db
+*.zip
+/build/
+.idea/
+.vscode/
+*.log
